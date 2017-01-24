@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# If you want to add more hosts EDIT the "list"
+# If you want to add more hosts EDIT the "host_list"
 
 # Load hosts from file
 location_log="/opt/netgate/host_list"
