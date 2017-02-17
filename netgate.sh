@@ -30,7 +30,7 @@ function text(){
 # Ssh function and log function. This function will start an ssh session and will log everything
 function sshr(){
  mkdir -p /home/$(whoami)/log/${host}/
- ssh -l $(login_name) $(ip_fqdn) -i /home/$(whoami)/.ssh/id_rsa | tee -a /home/$(whoami)/log/${host}/$(date +'%Y.%m.%d-%R')_$(whoami).log
+ ssh -l $(login_name) $(ip_fqdn) -i /home/$(whoami)/.ssh/id_rsa | tee -a /home/$(whoami)/log/${host}/$(date +'%Y.%m.%d-%R')_$(whoami).txt
 }
 
 function sticky(){
