@@ -68,6 +68,7 @@ function sticky(){
 }
 
 while true; do
+	echo "Host list is empty when installing, change it in /opt/netgate/"
     read -p "Do you wish to install netgate? [Y/N]" yn
     case $yn in
         [Yy]* ) sticky; break;;
