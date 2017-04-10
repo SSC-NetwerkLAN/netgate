@@ -12,4 +12,4 @@ Follow the instructions,
 
 When installed edit the host file in /opt/netgate to suit your needs,
 
-When done use netgate to use the program,
+When done type netgate to use the program,
